@@ -1,0 +1,44 @@
+.client {
+    display: flex;
+}
+.client .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    height:90px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #AFB1B8;
+}
+.client .item:not(:last-child) {
+    margin-right: 30px;
+}
+.client-logo1 {
+    width: 44px;
+    height: 49px;
+}
+.client-logo2 {
+    width: 40px;
+    height: 52px;
+}
+.client-logo3 {
+    width: 41px;
+    height: 43px;
+}
+.client-logo4 {
+    width: 80px;
+    height: 42px;
+}
+.client-logo5 {
+    width: 59px;
+    height: 47px;
+}
+.client-logo6 {
+    width: 89px;
+    height: 45px;
+}
+.client-link:hover .link-svg,
+.client-link:focus .link-svg {
+    fill: $accent-color;
+}
